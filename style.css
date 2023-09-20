@@ -1,0 +1,43 @@
+body {
+  background: linear-gradient(0deg, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.7820378151) 100%), url("BG.webp");
+  background-color: black;
+  background-repeat: no-repeat;
+  background-position: bottom center;
+  padding-bottom: 150px;
+}
+
+h1 {
+  font-family: "Limelight", cursive;
+  text-align: center;
+  color: burlywood;
+  margin: 50px 0;
+}
+
+.card-body {
+  text-align: center;
+}
+
+.card-title {
+  font-family: "Limelight", cursive;
+  text-align: center;
+}
+
+.real {
+  text-align: left;
+}
+
+.year {
+  float: right;
+}
+
+.preview {
+  box-shadow: 0px 10px 14px -7px black;
+}
+.preview:hover {
+  box-shadow: 0px 10px 14px -7px darkred;
+}
+
+.modal-body {
+  text-align: center;
+  background-color: black;
+}/*# sourceMappingURL=style.css.map */
