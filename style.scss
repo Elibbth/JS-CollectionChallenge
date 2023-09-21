@@ -11,11 +11,18 @@ h1 {
     color: burlywood;
     margin: 50px 0;
 }
+.card {
+    transition: transform .4s;
+}
+.card:hover {
+    -ms-transform: scale(1.05); 
+    -webkit-transform: scale(1.05);
+    transform: scale(1.05);
+}
 .card-body {
     text-align: center;
     font-family: "Forum", cursive;
 }
-
 .card-title {
     font-family: "Limelight", cursive;
     font-size: 1.1rem;

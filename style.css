@@ -13,6 +13,14 @@ h1 {
   margin: 50px 0;
 }
 
+.card {
+  transition: transform 0.4s;
+}
+
+.card:hover {
+  transform: scale(1.05);
+}
+
 .card-body {
   text-align: center;
   font-family: "Forum", cursive;
