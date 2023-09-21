@@ -13,12 +13,16 @@ h1 {
 }
 .card-body {
     text-align: center;
+    font-family: "Forum", cursive;
 }
+
 .card-title {
-    font-family: 'Limelight', cursive;
+    font-family: "Limelight", cursive;
+    font-size: 1.1rem;
     text-align: center;
 }
 .real{
+    font-family: 'Forum', cursive;
     text-align: left;
 }
 .year {
@@ -30,7 +34,12 @@ h1 {
         box-shadow: 0px 10px 14px -7px darkred;
     }
 }
+
 .modal-body {
+    font-family: 'Forum', cursive;
     text-align: center;
     background-color: black;
+        .modal-body.title {
+        font-family: "Limelight", cursive;
+        }
 }

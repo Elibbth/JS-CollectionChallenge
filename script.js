@@ -5,8 +5,8 @@ const tableCineBurton = ["Beetlejuice", "Batman", "Edward aux mains d'argent", "
 "Sleepy Hollow", "Planète des Singes", "Big Fish","Miss Peregrine & les enfants particuliers"];
 const tableDivers = ["Sleepers","Et au milieu coule une rivière",,"Arnaques, Crimes & Botaniques",
 "The Gentlemen", "Snatch","Fou(s) d'Irène", "Inglorious Basterds", "Imitation Game", "Oppenheimer"]
-const tableSeries = ["Arcane","Dans leur regard", "Foundation", "Stranger Things", "Peaky Blinders",
-"Sherlock", "Umbrella Academy", "Painkiller", "Only Murders in the Building"]
+const tableSeries = ["Arcane", "Mindhunter","Dans leur regard", "Foundation", "Stranger Things", "Peaky Blinders",
+"Sherlock", "Umbrella Academy", "Painkiller", "Only Murders in the Building", "The Walking Dead"]
 
 
 //.slice()
@@ -15,7 +15,7 @@ let favorite = [
         titre : "Les Affranchis",
         sortie : 1990,
         Real : "Martin Scorcese",
-        Distribution : "Robert DeNiro, Joe Pesci, Ray Liotta",
+        Distribution : " Robert DeNiro, Joe Pesci, Ray Liotta",
         genre : "Gangster",
         codeYoutube : "0v0NUEmeqbI", 
         img : "Goodfellas.jpg",
@@ -25,7 +25,7 @@ let favorite = [
         titre : "Gangs of New York",
         sortie : 2002,
         Real : "Martin Scorcese",
-        Distribution : "Liam Neeson, Leonardo DiCaprio, Daniel Day-Lewis",
+        Distribution : " Liam Neeson, Leonardo DiCaprio, Daniel Day-Lewis",
         genre : "Drame Historique",
         codeYoutube : "1bjh979vVG0",
         img : "Gangs_of_New_York_Poster.jpg",
@@ -35,7 +35,7 @@ let favorite = [
         titre : "Le Loup de Wall Street",
         sortie : 2013,
         Real : "Martin Scorcese",
-        Distribution : "Leonardo DiCaprio, Jonah Hill, Margot Robbie",
+        Distribution : " Leonardo DiCaprio, Jonah Hill, Margot Robbie",
         genre : "Comédie Biographique",
         codeYoutube : "GT9UfSqBz9o",
         img :"The_Wolf_of_Wall_Street_(2013).jpg",
@@ -45,7 +45,7 @@ let favorite = [
         titre : "Batman",
         sortie : 1989,
         Real : "Tim Burton",
-        Distribution : "Michael Keaton, Jack Nicholson, Kim Basinger",
+        Distribution : " Michael Keaton, Jack Nicholson, Kim Basinger",
         genre : "Fantastique",
         codeYoutube : "ygK7sAavO0c",
         img : "Batman_(1989)_theatrical_poster.jpg",
@@ -55,7 +55,7 @@ let favorite = [
         titre : "Edward aux mains d'Argent",
         sortie : 1990,
         Real : "Tim Burton",
-        Distribution : "Johnny Depp, Winona Rider, Diane Wiest",
+        Distribution : " Johnny Depp, Winona Rider, Diane Wiest",
         genre : "Fantastique",
         codeYoutube : "r6IwTHOKLGc",
         img : "edward.jpg",
@@ -65,7 +65,7 @@ let favorite = [
         titre : "Big Fish",
         sortie : 2003,
         Real : "Tim Burton",
-        Distribution : "Ewan McGregor, Albert Finney, Helena Bonham Carter",
+        Distribution : " Ewan McGregor, Albert Finney, Helena Bonham Carter",
         genre : "Fantastique",
         codeYoutube : "D0kiS4ROWkQ",
         img : "Big_Fish_movie_poster.jpg",
@@ -75,7 +75,7 @@ let favorite = [
         titre : "Sleepers",
         sortie : 1996,
         Real : "Barry Levinson",
-        Distribution : "Kevin Bacon, Brad Pitt, Robert DeNiro",
+        Distribution : " Kevin Bacon, Brad Pitt, Robert DeNiro",
         genre : "Drame",
         codeYoutube : "sVdiN_4gBWk",
         img : "Sleepers_(movie_poster).jpg",
@@ -85,7 +85,7 @@ let favorite = [
         titre : "Inglorious Basterds",
         sortie : 2009,
         Real : "Quentin Tarantino",
-        Distribution : "Christoph Waltz, Melanie Laurent, Brad Pitt",
+        Distribution : " Christoph Waltz, Melanie Laurent, Brad Pitt",
         genre : "Guerre",
         codeYoutube : "TnyEVXNwySg",
         img : "Inglourious_Basterds_poster.jpg",
@@ -95,7 +95,7 @@ let favorite = [
         titre : "Imitation Game",
         sortie : 2014,
         Real : "Morten Tyldum",
-        Distribution : "Benedict Cumberbatch, Keira Knightley, Matthieu Goode",
+        Distribution : " Benedict Cumberbatch, Keira Knightley, Matthieu Goode",
         genre : "Biopic",
         codeYoutube : "YmeEz6cQrwM",
         img : "The_Imitation_Game_(2014).jpg",
@@ -105,15 +105,35 @@ let favorite = [
         titre : "Oppenheimer",
         sortie : 2023,
         Real : "Christopher Nolan",
-        Distribution : "Cillian Murphy, Emily Blunt, Robert Downey Jr.",
+        Distribution : " Cillian Murphy, Emily Blunt, Robert Downey Jr.",
         genre : "Historique",
         codeYoutube : "CoXtvSRpHgM",
         img : "Oppenheimer_(film).jpg",
         id : 'popup-10'
+    },
+    {//11
+        titre : "Mindhunter",
+        sortie : 2017,
+        Real : "David Fincher",
+        Distribution : " Jonathan Groff, Holt McCallany, Anna Torv",
+        genre : "Serie : Thriller",
+        codeYoutube : "UKyrF5LiaUM",
+        img : "Mindhunter.jpg",
+        id : 'popup-11',
+    },
+    {//12
+        titre : "The Umbrella Academy",
+        sortie : 2019,
+        Real : "Steve Blackman",
+        Distribution : " Elliot Page, Robert Sheehan, Aidan Gallagher",
+        genre : "Serie : Science Fiction",
+        codeYoutube : "6ht05Nn41Hg",
+        img : "UmbrellaAcademy.png",
+        id : 'popup-12',
     }
 ]
-document.body.onload = creerhtmlcollection;
 
+document.body.onload = creerhtmlcollection;
 
 function creerhtmlcollection() {
 

@@ -15,14 +15,17 @@ h1 {
 
 .card-body {
   text-align: center;
+  font-family: "Forum", cursive;
 }
 
 .card-title {
   font-family: "Limelight", cursive;
+  font-size: 1.1rem;
   text-align: center;
 }
 
 .real {
+  font-family: "Forum", cursive;
   text-align: left;
 }
 
@@ -38,6 +41,10 @@ h1 {
 }
 
 .modal-body {
+  font-family: "Forum", cursive;
   text-align: center;
   background-color: black;
+}
+.modal-body .modal-body.title {
+  font-family: "Limelight", cursive;
 }/*# sourceMappingURL=style.css.map */
