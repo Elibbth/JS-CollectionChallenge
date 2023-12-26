@@ -1,6 +1,6 @@
 # [JS-Collection](https://elibbth.github.io/JS-CollectionChallenge/) Challenge
 
-###Le but de ce projet sera de synthétiser nos connaissances actuelles sur :
+### Le but de ce projet sera de synthétiser nos connaissances actuelles sur :
 
 - HTML et CSS
 - Responsive design
