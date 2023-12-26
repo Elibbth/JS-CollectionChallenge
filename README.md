@@ -8,5 +8,7 @@
 - DOM
 
 **Créer une collection d'objets.**
+
 **Créer une carte pour chaque objet avec javascript et la remplir avec les propriétés de ce même objet.** 
+
 **BONUS** : ajout d'un bouton supprimer, d'une fonction de tri et-ou quelques animations.
